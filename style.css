@@ -1,0 +1,19 @@
+body{
+    font-family: tahoma;
+}
+#meals{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+.meal{
+    border: 1px solid royalblue;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+.meal-name{
+    color: salmon;
+    font-size: 25px;
+}
