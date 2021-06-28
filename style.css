@@ -11,9 +11,39 @@ body{
     border-radius: 20px;
     padding: 20px;
     text-align: center;
-    width: 200px;
+    width: 250px;
+}
+.meal h3:hover,.meal img:hover{
+    cursor: pointer;
+    color: blueviolet;
+}
+#meal-detail{
+    padding: 50px;
+    text-align: center;
+    width: 100%;
+    display: fixed;
+    top: 0;
+    left: 0;
 }
 .meal-name{
     color: salmon;
     font-size: 25px;
+}
+
+.categories ul li{
+    list-style: none;
+    border: 2px solid gray;
+    display: block;
+    float: right;
+    overflow: hidden;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    
+}
+ul li{
+    list-style: none;
+}
+.categories{
+    margin-bottom: 40px;
 }
