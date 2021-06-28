@@ -75,7 +75,7 @@ const mealDetailInfo = meal => {
                 <li>${meal.strIngredient19}</li>
                 <li>${meal.strIngredient20}</li>
             </ul>
-            <iframe width="300" height="215" src="${meal.strYoutube}"></iframe>
+            <iframe width="300" height="215" src="${meal.strYoutube}"> </iframe>
         `
     mealDiv.innerHTML = mealDetailsInfo;
 }
